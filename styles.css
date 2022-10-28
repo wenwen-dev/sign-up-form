@@ -3,7 +3,18 @@
 
 * {
   box-sizing: border-box;
-  
+}
+
+h1, p {
+  padding-left: 10px;
+}
+
+:link {
+  color: white;
+}
+
+:visited {
+  color: aquamarine;
 }
 
 .wrapper {
@@ -16,6 +27,25 @@
   height: 100vh;
   background-image: url(bg.jpg);
   color: white;
+}
+
+.left-banner {
+  width: 100%;
+  height: 50px;
+  margin-top: 200px;
+  background-color:darkolivegreen;
+  opacity: 0.9;
+  text-align: center;
+}
+
+#icon {
+  width: 30px;
+  height: 30px;
+}
+.img-credit {
+  padding-top: 65vh;
+  text-align: center;
+  /* TODO: any better way to set the position of the credits */
 }
 
 .right {
