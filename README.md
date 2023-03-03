@@ -1,3 +1,8 @@
 # sign-up-form
 
-This is part of The Odin Project. It is my attempt at the Sign-up Form project which helps to consolidate skills learnt on form validation, pseudo classes, and fonts.
+This is a project to practice these skills besides basics:
+
+- page layouts
+- positioning
+- styling texts
+- form, form controls, form validation

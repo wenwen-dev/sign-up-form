@@ -1,22 +1,17 @@
-/* TODO: forgot how to adjust image size using css */
-/* TODO: find a software to resize images */
-
-* {
+html {
   box-sizing: border-box;
 }
 
-h1, p {
-  padding-left: 10px;
+*, *::before, *::after {
+  box-sizing: inherit;
 }
 
-:link {
-  color: white;
+body {
+  height: 100vh;
 }
 
-:visited {
-  color: aquamarine;
-}
 
+/* below are old codes */
 .wrapper {
   display: flex;
   flex-direction: row;
@@ -29,30 +24,3 @@ h1, p {
   color: white;
 }
 
-.left-banner {
-  width: 100%;
-  height: 50px;
-  margin-top: 200px;
-  background-color:darkolivegreen;
-  opacity: 0.9;
-  text-align: center;
-}
-
-#icon {
-  width: 30px;
-  height: 30px;
-}
-.img-credit {
-  padding-top: 65vh;
-  text-align: center;
-  /* TODO: any better way to set the position of the credits */
-}
-
-.right {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  width: 60vw;
-  height: 100vh;
-  color: black;
-}
