@@ -8,19 +8,43 @@ html {
 
 body {
   height: 100vh;
-}
-
-
-/* below are old codes */
-.wrapper {
   display: flex;
-  flex-direction: row;
 }
 
-.left {
-  width: 40vw;
-  height: 100vh;
-  background-image: url(bg.jpg);
+#left-column {
+  width: 30vw;
+  background-image: url(bg2.jpg);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+ 
+}
+
+#right-column {
+  flex: 3;
+  border: 1px solid gold;
+}
+
+.logo-container {
+  font-family: 'Gajraj One', cursive;
+  display: flex;
+  font-size: 60px;
   color: white;
+  position: relative;
+  top: 280px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
+img {
+  margin-right: 15px;
+}
+
+.photo-credit {
+  color: wheat;
+  margin-top: auto;
+  margin-bottom: 15px;
+  text-align: center;
+}
